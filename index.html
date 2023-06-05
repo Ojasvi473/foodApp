@@ -9,14 +9,14 @@
   <body>
     <style>
       .main {
-        background-color: gray;
+        background-color: darksalmon;
       }
       header ul {
         list-style-type: none;
         margin: 0;
         padding: 0;
         overflow: hidden;
-        background-color: dimgray;
+        background-color: rgb(228, 94, 94);
       }
 
       header li {
@@ -32,10 +32,14 @@
       }
 
       header li a:hover {
-        background-color: #111;
+        background-color: crimson;
       }
       .text-content a {
         text-decoration: none;
+        color: white;
+        font-size: 20px;
+      }
+      .text-content a:hover {
         color: black;
       }
       .images {
@@ -63,54 +67,64 @@
         <h2>Top 5 favourite foods</h2>
         <ul>
           <li>
-            <a href="briyani">Biryani</a>
+            <a href="#briyani">Biryani</a>
           </li>
           <li>
-            <a href="cake">Cake</a>
+            <a href="#cake">Cake</a>
           </li>
-          <li><a href="pizza">Pizza</a></li>
-          <li><a href="choupsey">Choupsey</a></li>
-          <li><a href="wings">Wings</a></li>
+          <li><a href="#pizza">Pizza</a></li>
+          <li><a href="#choupsey">Choupsey</a></li>
+          <li><a href="#wings">Wings</a></li>
         </ul>
       </div>
       <div class="images">
-        <img
-          class="fooditem"
-          src="https://static.wixstatic.com/media/91e241_475faa4fa56341f3878699dde5ab4904~mv2.jpg/v1/fill/w_864,h_576,al_c,lg_1,q_85/91e241_475faa4fa56341f3878699dde5ab4904~mv2.jpg"
-          alt=""
-        />
+        <div id="briyani">
+          <img
+            class="fooditem"
+            src="https://static.wixstatic.com/media/91e241_475faa4fa56341f3878699dde5ab4904~mv2.jpg/v1/fill/w_864,h_576,al_c,lg_1,q_85/91e241_475faa4fa56341f3878699dde5ab4904~mv2.jpg"
+            alt=""
+          />
+        </div>
       </div>
       <p class="labels">Biryani</p>
       <div class="images">
-        <img
-          class="fooditem"
-          src="https://media.bakingo.com/sq-pineapple-cake0022pifr-AA_0.jpg"
-          alt=""
-        />
+        <div id="cake">
+          <img
+            class="fooditem"
+            src="https://media.bakingo.com/sq-pineapple-cake0022pifr-AA_0.jpg"
+            alt=""
+          />
+        </div>
       </div>
       <p class="labels">Cake</p>
       <div class="images">
-        <img
-          class="fooditem"
-          src="https://ohoje.com/public/imagens/fotos/amp/2022/09/pizza.jpg"
-          alt=""
-        />
+        <div id="pizza">
+          <img
+            class="fooditem"
+            src="https://ohoje.com/public/imagens/fotos/amp/2022/09/pizza.jpg"
+            alt=""
+          />
+        </div>
       </div>
       <p class="labels">Pizza</p>
       <div class="images">
-        <img
-          class="fooditem"
-          src="https://www.licious.in/blog/wp-content/uploads/2022/06/chop-suey-2.jpg"
-          alt=""
-        />
+        <div id="choupsey">
+          <img
+            class="fooditem"
+            src="https://www.licious.in/blog/wp-content/uploads/2022/06/chop-suey-2.jpg"
+            alt=""
+          />
+        </div>
       </div>
       <p class="labels">Choupsey</p>
       <div class="images">
-        <img
-          class="fooditem"
-          src="https://images-gmi-pmc.edge-generalmills.com/b747b482-21b2-418d-9a34-5e6c1036072c.jpg"
-          alt=""
-        />
+        <div id="wings">
+          <img
+            class="fooditem"
+            src="https://images-gmi-pmc.edge-generalmills.com/b747b482-21b2-418d-9a34-5e6c1036072c.jpg"
+            alt=""
+          />
+        </div>
       </div>
       <p class="labels">Wings</p>
     </div>
